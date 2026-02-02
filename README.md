@@ -1,4 +1,4 @@
-# Codon_Classification_Enseble_Learning
+# Codon_Classification_Ensemble_Learning
 
 This code implements ensemble-learning classification of species Kingdom from DNA codon usage data sourced from the UCI Machine Learning Repository, where each record includes 69 attributes (64 codon-frequency features plus DNAtype, SpeciesID/SpeciesName, Ncodons, and Kingdom) across 13,028 rows with some missing values. The notebook follows a clear pipeline: import required libraries, inspect the 11-class Kingdom distribution (noting label imbalance), check for duplicates, handle missing values (including type issues in codon columns such as uuu and uuc), cast identifier columns as categorical, and apply min–max normalization so the codon features share a consistent numeric scale before modeling. 
 
